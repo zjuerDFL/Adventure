@@ -1,0 +1,73 @@
+# All the test cases listing above
+# should be done in the test mood
+
+# test case 1: win all 3 levels
+# test input:
+# level 1:
+    go up
+    go down
+    go down
+    go east
+    go up
+    go west
+# level 2:
+    go east
+    go east
+    go east
+    go west
+    go up
+    go down
+    go west
+    go west
+    go down
+    go west
+    go up
+    go east
+# level 3:
+    go east
+    go up
+    go east
+    go down
+    go down
+    go down
+    go down
+    go down
+    go east
+    go west
+    go west
+    go up
+    go up
+    go west
+    go west
+    go up
+    go up
+    go east
+
+# test case 2: encounter a monster
+# test input:
+# level 1:
+    go up
+    go west
+    go down
+
+# test case 3: try to get into the nonexistent door
+# test input:
+# level 1:
+    go east
+    go east
+    go up
+    go down
+    go down
+    go west
+    go west
+    quit
+
+# test case 4: test help and quit commend
+# test input:
+    help
+    quit
+
+# test case 5: other invalid command
+# you could print whatever you want
+# and the program will remind you
+
